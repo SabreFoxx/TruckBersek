@@ -1,0 +1,157 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.2.75",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Mesh"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "terrain_mtl",
+            "normalTexture" : {
+                "index" : 0,
+                "scale" : 1.5,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 1
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "TerrainMesh-mesh",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        },
+        {
+            "source" : 1
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "TruckBersek_TN",
+            "uri" : "TruckBersek_TN.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "TruckBersek_TX",
+            "uri" : "TruckBersek_TX.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 28140,
+            "max" : [
+                255.5,
+                60.233619689941406,
+                256
+            ],
+            "min" : [
+                -256,
+                -28.20819664001465,
+                -255.5
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 28140,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 28140,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 28140,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5123,
+            "count" : 142458,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 337680,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 337680,
+            "byteOffset" : 337680
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 450240,
+            "byteOffset" : 675360
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 225120,
+            "byteOffset" : 1125600
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 284916,
+            "byteOffset" : 1350720
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1635636,
+            "uri" : "TownBersek.bin"
+        }
+    ]
+}

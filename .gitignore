@@ -1,0 +1,36 @@
+# compiled binary files
+build/
+*.o
+*.so
+*.os
+*.a
+*.lib
+*.dll
+*.pyc
+
+# personal config files
+#*.kdev4
+#launch_game.sh
+
+# dotenv environment variables file
+.env
+.env.test
+
+Godot import directory
+.import/
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Exclude the modules. They have their own git repositories.
+# Exclude only what is inside the folder.
+modules/*
+# Retain the folder since git doesn't track empty folders.
+!modules/.gitkeep

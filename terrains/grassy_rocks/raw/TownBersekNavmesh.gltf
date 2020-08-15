@@ -1,0 +1,112 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.2.75",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "navmesh"
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "TerrainMesh-mesh.003",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 13782,
+            "max" : [
+                216,
+                60.00551223754883,
+                256
+            ],
+            "min" : [
+                -208,
+                -25.14840316772461,
+                -216
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 13782,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 13782,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 13782,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5123,
+            "count" : 13803,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 165384,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 165384,
+            "byteOffset" : 165384
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 220512,
+            "byteOffset" : 330768
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 110256,
+            "byteOffset" : 551280
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 27606,
+            "byteOffset" : 661536
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 689144,
+            "uri" : "TownBersekNavmesh.bin"
+        }
+    ]
+}
